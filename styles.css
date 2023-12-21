@@ -15,8 +15,10 @@ body {
     align-items: center;
     background-color: var(--main-background);
     color: var(--body);
+    padding: 1.5em;
 }
 
 .card {
     background: var(--card-background);
+    border-radius: 0.5em;
 }
