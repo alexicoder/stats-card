@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     overflow: hidden;
+    text-align: center;
 }
 
 .card-content {
@@ -40,7 +41,7 @@ body {
 .card-header-title {
     font-size: clamp(1.75em,4.8vw,2.25em);
     color: var(--heading);
-    margin-bottom: .8em;
+    margin-bottom: .5em;
 }
 
 .card-image-wrapper {
