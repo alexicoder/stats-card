@@ -17,3 +17,6 @@ body {
     color: var(--body);
 }
 
+.card {
+    background: var(--card-background);
+}
