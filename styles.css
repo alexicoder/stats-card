@@ -78,3 +78,9 @@ body {
     font-size: 1.5em;
     color: var(--heading);
 }
+
+.stats-block-content {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
