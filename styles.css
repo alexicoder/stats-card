@@ -18,6 +18,10 @@ body {
     padding: 1.5em;
 }
 
+.highlight {
+    color: var(--accent);
+}
+
 .card {
     background: var(--card-background);
     border-radius: 0.5em;
@@ -31,6 +35,12 @@ body {
     flex-direction: column;
     gap: 2.5em;
     padding: 2.5em 1.875em 1.875em 1.875em;
+}
+
+.card-header-title {
+    font-size: clamp(1.75em,4.8vw,2.25em);
+    color: var(--heading);
+    margin-bottom: .8em;
 }
 
 .card-image-wrapper {
